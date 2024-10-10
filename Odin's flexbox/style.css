@@ -3,11 +3,14 @@
 
 * {
     font-family: "Roboto", sans-serif;
+    outline: 1px solid red;
 }
 
 body {
     margin: 0%;
 }
+
+/* All CSS for the Navbar division */
 
 .navbar {
     display: flex;
@@ -32,4 +35,48 @@ body {
     justify-content: right;
     margin: 20px;
     gap: 30px;
+}
+
+/* All CSS for the Hero page division */
+
+.hero {
+    background-color: #1f2937;
+    color: #f2faf8;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.herotext {
+    width: 500px;
+    flex: 4 1 auto;
+    padding-bottom: 150px;
+}
+
+.herotext strong {
+    font-size: 60px;
+    font-weight: 900;
+}
+.herotext p {
+    font-size: 24px;
+}
+
+.herotext button {
+    color: #f2faf8;
+    background-color: #3882f6;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 50px;
+    border: 3px;
+    border-radius: 5px 50px;
+}
+
+img {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: right;
+    border-radius: 15px;
+    margin-left: 40px;
 }
