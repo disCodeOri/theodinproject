@@ -137,3 +137,12 @@ img {
     flex-direction: row-reverse;
     margin: 0px;
 }
+
+/* All CSS for the Copyright division */
+
+.copyright {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+}
