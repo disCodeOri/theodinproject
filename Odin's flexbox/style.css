@@ -3,7 +3,7 @@
 
 * {
     font-family: "Roboto", sans-serif;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 body {
@@ -13,14 +13,14 @@ body {
 /* All CSS for the Navbar division */
 
 .navbar {
-    display: flex;
-    background-color: #1f2937;
-    align-items: center;
-    align-content: center;
-    padding-left: 40px;
-    padding-right: 30px;
-    color: #f2faf8;
     height: 70px;
+    color: #f2faf8;
+        background-color: #1f2937;
+    display: flex;
+        align-items: center;
+        align-content: center;
+        padding-left: 40px;
+        padding-right: 30px;
 }
 
 .header-logo {
@@ -30,23 +30,23 @@ body {
 }
 
 .navlinks {
-    flex: 1 1 auto;
     display: flex;
-    justify-content: right;
-    margin: 20px;
-    gap: 30px;
+        flex: 1 1 auto;
+        justify-content: right;
+        margin: 20px;
+        gap: 30px;
 }
 
 /* All CSS for the Hero page division */
 
 .hero {
-    background-color: #1f2937;
-    color: #f2faf8;
     height: 613px;
+    color: #f2faf8;
+        background-color: #1f2937;
     display: flex;
-    align-items: center;
-    padding: 50px;
-    padding-left: 100px;
+        align-items: center;
+        padding: 50px;
+        padding-left: 100px;
 }
 
 .herotext {
@@ -65,43 +65,43 @@ body {
 
 .herotext button {
     color: #f2faf8;
-    background-color: #3882f6;
+        background-color: #3882f6;
     font-size: 24px;
     font-weight: bold;
     padding: 10px 50px;
     border: 3px;
-    border-radius: 5px 50px;
+        border-radius: 5px 50px;
 }
 
-img {
-    flex: 1 1 auto;
+.hero img {
     display: flex;
-    justify-content: right;
-    border-radius: 15px;
-    margin-left: 40px;
+        flex: 1 1 auto;
+        justify-content: right;
+        margin-left: 40px;
+        border-radius: 15px;
 }
 
 /* All CSS for the inline card stack division */
 
 .card-stack-section {
     margin: 50px;
-    margin-bottom: 100px;
+        margin-bottom: 100px;
 }
 
 .inline-card-stack {
-    align-items: center;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 30px;
+        justify-content: center;
+        align-items: center;
+            text-align: center;
+        gap: 30px;
 }
 
 .cardstitle {
-    font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
-    text-align: center;
     margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;    
 }
 
 .inline-card-stack .card {
@@ -120,60 +120,64 @@ img {
 /* All CSS for the Inspiring-quote division */
 
 .inspiring-quote {
-    padding: 100px;
     background-color: #E5E7EBff;
+    padding: 100px;
 }
 
 .mainquote {
-    font-size: 36px;
-    font-style: italic;
     color: #1f2937;
     margin: 0px;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quotecredit {
-    font-weight: 900;
-    display: flex;
-    flex-direction: row-reverse;
     margin: 0px;
-}
-
-/* All CSS for the Copyright division */
-
-.copyright {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    background-color: #1f2937;
+    display: flex;
+        flex-direction: row-reverse;
+        font-weight: 900;
 }
 
 /* All CSS for the sign-up-card division */
 
 .sign-up-card {
     width: 750px;
-    margin: 20px auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
     color: #FFFFFF;
-    background-color: #3882f6;
-    padding: 40px;
+        background-color: #3882f6;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 15px;
+        padding: 40px;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        border-radius: 15px;
 }
 
-.text .calltext {
+.text strong {
+    margin: 0%;
     font-size: 24px;
+}
+.text p {
+    margin: 0%;
 }
 
 .sign-up-card .signupbtn {
     color: #f2faf8;
-    background-color: #3882f6;
+        background-color: #3882f6;
+    padding: 10px 50px;
     font-size: 24px;
     font-weight: bold;
-    padding: 10px 50px;
-    border: 3px;
     outline: 2px solid white;
-    border-radius: 10px;
+    border: 3px;
+        border-radius: 10px;
+}
+
+/* All CSS for the Copyright division */
+
+.copyright {
+    color: white;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
 }
