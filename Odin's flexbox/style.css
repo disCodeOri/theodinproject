@@ -81,7 +81,7 @@ img {
     margin-left: 40px;
 }
 
-/* All CSS for the Navbar division */
+/* All CSS for the inline card stack division */
 
 .card-stack-section {
     margin: 50px;
@@ -150,8 +150,8 @@ img {
 /* All CSS for the sign-up-card division */
 
 .sign-up-card {
-    width: 1000px;
-    margin: 20px;
+    width: 750px;
+    margin: 20px auto;
     margin-top: 100px;
     margin-bottom: 100px;
     color: #FFFFFF;
@@ -159,11 +159,21 @@ img {
     padding: 40px;
     display: flex;
     align-items: center;
-    justify-self: center;
     justify-content: space-around;
+    border-radius: 15px;
 }
 
 .text .calltext {
     font-size: 24px;
-    
+}
+
+.sign-up-card .signupbtn {
+    color: #f2faf8;
+    background-color: #3882f6;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 50px;
+    border: 3px;
+    outline: 2px solid white;
+    border-radius: 10px;
 }
