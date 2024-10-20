@@ -1,0 +1,8 @@
+Application components:
+- Computer player
+    Generates a random result and outputs it into a variable which is then sent to the result calculator.
+- Player input
+    Inputs a result that is stored into a varaible which is then sent to the result calculator.
+- Result calculation
+    Calculates the winner using the inputs from the user and the computer.
+    The reference from which it calculates can be, existing combinations mapped into if and else statements.
